@@ -1,5 +1,4 @@
 syntax on 
-set cursorline
 set scrolloff=8
 filetype plugin on 
 filetype indent on
