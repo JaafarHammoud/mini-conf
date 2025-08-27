@@ -1,5 +1,8 @@
 syntax on 
-filetype plugin indent on 
+set cursorline
+set scrolloff=8
+filetype plugin on 
+filetype indent on
 set autoindent
 set smartindent
 set expandtab
