@@ -1,19 +1,8 @@
-syntax on 
-set scrolloff=8
-filetype plugin on 
-filetype indent on
-set autoindent
-set smartindent
-set expandtab
-set tabstop=4
-set softtabstop=4
-set cursorline
-set shiftwidth=4
-set termguicolors
-set number
-set relativenumber
-set hlsearch
-set incsearch
-set ignorecase
-set smartcase
-set wrap
+syntax on
+filetype plugin indent on
+set ts=2 sw=2 et ai
+set number relativenumber
+set hlsearch incsearch ignorecase smartcase
+set nowrap
+set pastetoggle=<F3>
+silent! packadd comment
